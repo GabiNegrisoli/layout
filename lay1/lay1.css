@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+#pai{
+width: 1200px;
+height: 750px ;
+border: 2px solid;
+border-color: black;
+grid-template-columns: 30% 70%;
+grid-template-rows: ;
+}
+
+#col1{
+
+
+
+}
