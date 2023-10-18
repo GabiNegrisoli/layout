@@ -12,14 +12,37 @@ justify-content: center;
 #pai{
 width: 1200px;
 height: 750px ;
-border: 2px solid;
-border-color: black;
-grid-template-columns: 30% 70%;
-grid-template-rows: ;
+display: grid;
+grid-template-columns: 30% 2% 68%;
+grid-template-rows: 15% 2% 10% 73%;
 }
 
 #col1{
+   border: 2px solid black;
+   background-color: aqua;
+   grid-area: 1 / 1 / 2 / 2;
+}
 
+#col2{
+    border: 2px solid black;
+    background-color: aqua;
+    grid-area: 1 / 2 / 2 / 4;
+}
 
+#col3{
+    border: 2px solid black;
+    background-color: red;
+    grid-area: 3 / 1 / 5 / 2;
+}
 
+#col4{
+    border: 2px solid black;
+    background-color:darkgreen;
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+#col5{
+    border: 2px solid black;
+    background-color:mediumslateblue;
+    grid-area: 4 / 3 / 5 / 4;
 }
